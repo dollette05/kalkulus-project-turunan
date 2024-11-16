@@ -1,0 +1,2 @@
+# kalkulus-project-turunan
+PROJECT KALKULUS MATERI TURUNAN KELOMPOK 1 - A
