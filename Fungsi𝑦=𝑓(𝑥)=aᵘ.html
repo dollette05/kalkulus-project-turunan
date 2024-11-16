@@ -1,0 +1,182 @@
+<!-- Diferensial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferensial (Turunan) Fungsi Aljabar</title>
+        <!-- for icons  -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- bootstrap  -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- for swiper slider  -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+        <!-- fancy box  -->
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+        <!-- custom css  -->
+        <link rel="stylesheet" href="FungsiAljabar.css">
+        <script type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
+<head>
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="logo.png" width="60" height="60" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu materi-nav-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#materi" class="dropdown-toggle">Materi</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="index.html">Turunan Fungsi Aljabar</a></li>
+                                        <li><a href="index.html">Turunan Fungsi Logaritma</a></li>
+                                        <li><a href="index.html">Turunan Fungsi Eksponensial</a></li>
+                                        <li><a href="index.html">Turunan Fungsi Berpangkat</a></li>
+                                        <li><a href="index.html">Turunan Fungsi Eksponensial Baris Konstan</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index.html">Kalkulator</a></li>
+                                <li><a href="index.html">Latihan Soal</a></li>
+                                <li><a href="index.html">Our Member</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+     
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="assets/images/2.png" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="assets/images/1.png" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h3 class="h2-title">
+                                        Diferensial (Turunan) Fungsi 𝑦=𝑓(𝑥)=𝑎ᵘ
+                                    </h1>
+                                    <p> Diferensial dari bentuk fungsi eksponensial \( y = f(x) =a^u \) dengan \(a\) sebagai konstanta positif dan \(u\) sebagai fungsi dari \(x\), dapat dihitung dengan menggunakan aturan rantai dalam kalkulus. </p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#home" class="sec-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(assets/images/7.png);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="about-sec section" id="materi">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Bentuk Umum</p>
+                                <h2 class="h2-title">Diferensial (Turunan) Fungsi 𝑦=𝑓(𝑥)=𝑎ᵘ</h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="assets/images/title-shape.svg" alt="">
+                                </div>
+                                <p>
+                                    Jika \( y = a^x \), maka turunannya adalah: \( y' = a^x \cdot \ln(a) \)
+                                </p>
+                                <p>
+                                    Jika \( y = Aa^u \), dengan \( A \) adalah konstanta dan \( u(x) \) adalah fungsi dari \( x \), maka turunannya adalah: \( y' = Au'\) \( a^u\) \( ln(a) \)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-pattern bg-light repeat-img" style="background-image: url(assets/images/6.png);">     
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Contoh Soal</p>
+                                    <h2 class="h2-title">Diferensial (Turunan) Fungsi 𝑦=𝑓(𝑥)=𝑎ᵘ</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    <p>Tentukan turunan pertama dari fungsi \( y = \frac{4^{5x+3}}{8^{x-5}} \)</p>
+                                    <h4 class="h4-title">Jawaban</h4>
+                                    <p>\(y = \frac{(2^2)^{(5x + 3)}}{(2^3)^{(8x - 5)}} \)</p>
+                                    <p>\(y =\frac{(2)^{(10x + 6)}}{(2)^{(3x - 15)}} \)</p>
+                                    <p>\(y ={2^{(10x + 6)-(3x - 15)}}\)</p>
+                                    <p>\(y = {2^{(7x+21)}} \)</p>
+                                    <p>Maka turuna fungsi di atas adalah \( y' = 7 \cdot 2^{7x + 21} \cdot \ln(2) \)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <!-- header ends  -->
+<body>
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="assets/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!-- gsap  -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <!-- <script src="assets/js/rellax.min.js"></script> -->
+    <!-- <script src="assets/js/rellax-custom.js"></script> -->
+    <!-- smooth scroll  -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+</body>
+</html>
